@@ -74,6 +74,10 @@ header{
   cursor: pointer;
 }
 
+.heroArea .leftside .form button:hover{
+  filter: brightness(0.8);
+}
+
 .heroArea .leftside .techs {
   margin-bottom: 80px;
 }
@@ -87,4 +91,149 @@ header{
   background-image: url('../img/hero.png');
   background-size: 100% auto;
 
+}
+
+.info{
+    height: 100%;
+    border-bottom: 2px solid #eaeef1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.list-item {
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  color: #C2C8CB;
+  text-transform: uppercase;
+  padding: 40px 0;
+  margin: 0 10px;
+
+}
+
+.list-circle{
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #C2C8CB;
+  margin: 0 10px;
+
+
+}
+
+.instructions{
+
+}
+
+.inst-container{
+  margin: auto;
+  max-width: 900px;
+  padding: 70px 0;
+}
+
+.inst-item{
+  border-left: 3px solid #ecf0f3;
+  display: flex;
+
+}
+
+.inst-circle{
+  width: 17px;
+  height: 17px;
+  background: #0071B7;
+  border-radius: 50%;
+  margin-left: -9px;
+}
+
+.inst-text{
+  flex: 1;
+  margin-left: 60px;
+}
+
+.inst-text h2{
+  font-size: 32px;
+  color: #000;
+  margin: -10px 0 20px 0;
+}
+
+.inst-text p{
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 70px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.inst-item:last-child{
+  border: 0;
+}
+
+.inst-item:last-child p{
+   margin: 0;
+}
+
+.cta{
+  height: 486px;
+  background: #1D2437;
+
+}
+
+.cta-container{
+  margin: auto;
+  max-width: 900px;
+  padding: 100px 0;
+  display: flex;
+}
+
+.cta-left h2{
+  color: #fff;
+  font-size: 40px;
+  line-weight: 46px;
+  font-weight: bold;
+}
+
+.cta-left p{
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 320px;
+}
+
+.cta-right input{
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  height: 43px;
+  width: 362px;
+  outline: none;
+  padding: 0 10px;
+  margin-top: 40px;
+  color: #fff;
+}
+.cta-right button{
+  width: 362px;
+  height: 43px;
+  border: none;
+  margin: 27px 0;
+  background: #0071B7;
+  color: #fff;
+}
+
+.cta-right button:hover{
+  filter: brightness(0.8);
+
+}
+
+.cta-left{
+  flex: 1;
+}
+
+.cta-right{
+  flex: 1;
+}
+
+footer{
+  background: #000;
+  height: 120px;
 }
